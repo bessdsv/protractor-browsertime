@@ -1,0 +1,73 @@
+{
+  "name": "protractor-browsertime",
+  "version": "0.0.1",
+  "description": "Analyze the speed of your web page",
+  "keywords": [
+    "performance",
+    "web",
+    "speed",
+    "navigation-timing",
+    "har",
+    "browser",
+    "protractor"
+  ],
+  "homepage": "http://www.browsertime.net",
+  "license": "Apache-2.0",
+  "author": {
+    "name": "Tobias Lidskog"
+  },
+  "contributors": {
+    "name": "Sergey Dolinkov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/besdsv/protractor-browsertime.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bessdsv/protractor-browsertime/issues"
+  },
+  "files": [
+    "lib",
+    "scripts"
+  ],
+  "engines": {
+    "node": ">=0.10"
+  },
+  "main": "./browsertime.js",
+  "devDependencies": {
+
+    "jshint": "2.6.x"
+  },
+  "dependencies": {
+    "deasync": "0.0.10",
+    "async": "0.9.0",
+    "async-node-events": "git+https://github.com/joshuafcole/async-node-events.git#d32411f1f4",
+    "browsermob-proxy-api": "0.1.4",
+    "cross-spawn": "0.2.6",
+    "fast-stats": "0.0.2",
+    "getport": "0.1.0",
+    "minimist": "1.1.1",
+    "valid-url": "1.0.9",
+    "winston": "0.9.0"
+  },
+  "scripts": {
+    "lint": "jshint .",
+    "test": "npm run lint",
+    "travis": "npm run lint"
+  },
+  "maintainers": [
+    {
+      "name": "bessdsv",
+      "email": "bessdsv@mail.ru"
+    },
+    {
+      "name": "soulgalore",
+      "email": "peter@soulgalore.com"
+    },
+    {
+      "name": "tobli",
+      "email": "tobias@lidskog.se"
+    }
+  ],
+  "readme": "ERROR: No README data found!"
+}
