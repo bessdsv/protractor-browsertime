@@ -35,8 +35,8 @@
   },
   "main": "./browsertime.js",
   "devDependencies": {
-
-    "jshint": "2.6.x"
+    "jshint": "2.6.x",
+    "protractor": "^2.0.0"
   },
   "dependencies": {
     "deasync": "0.0.10",
