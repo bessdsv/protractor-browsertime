@@ -114,7 +114,7 @@ module.exports.createStatisticUnit = function (options) {
 
   setConfig(options);
 
-  var jarPath = path.join("lib", "proxy", 'bmpwrapper-2.0.0-full.jar');
+  var jarPath = path.join(__dirname, "lib", "proxy", 'bmpwrapper-2.0.0-full.jar');
   proxyProcess = spawn('java', ['-jar', jarPath, '-port', unitData.proxy.controlport]);
 
   var timeout = setTimeout(endWithTimeout, unitData.proxy.startupTime);

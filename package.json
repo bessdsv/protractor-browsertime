@@ -1,6 +1,6 @@
 {
   "name": "protractor-browsertime",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "Analyze the speed of your web page",
   "keywords": [
     "performance",
@@ -21,15 +21,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/besdsv/protractor-browsertime.git"
+    "url": "git://github.com/bessdsv/protractor-browsertime.git"
   },
   "bugs": {
     "url": "https://github.com/bessdsv/protractor-browsertime/issues"
   },
-  "files": [
-    "lib",
-    "scripts"
-  ],
   "engines": {
     "node": ">=0.10"
   },
